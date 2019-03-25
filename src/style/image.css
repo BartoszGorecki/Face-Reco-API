@@ -1,0 +1,68 @@
+.ImageLinkForm, .rank, .FaceRecognition {
+    text-align: center;
+}
+.FaceRecognition {
+    width: 50%;
+    margin: 0 auto;
+    min-height: 500px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ccc;
+}
+input {
+    border: 1px solid black;
+    outline: none
+}
+button {
+    margin: .5rem;
+    padding: .2rem 1rem;
+    background: white;
+    border: 1px solid black;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+img {
+    width: 100%;
+}
+.bounding-box {
+    position: absolute;
+    box-shadow: 0 0 0 3px #149d2f inset;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+}
+/************************** SIGN IN **************************/
+.SignIn {
+    width: 300px;
+    height: 500px;
+    border: 1px dotted black;
+    margin: 0 auto;
+}
+.centerspan {
+    display: block;
+    text-align: center;
+    margin: 3rem 0;
+}
+.centerinput {
+    width: 60%;
+    height: 1rem;
+    margin: 1rem auto;
+    display: block;
+}
+.extrainput {
+    width: 5rem;
+    margin: 2rem auto;
+}
+.parareg {
+    font-size: 12px;
+    display: block;
+    margin: 0 auto;
+    border: 2px dotted black;
+    width: 10rem;
+    text-align: center;
+}
